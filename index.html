@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Learning Page</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Custom CSS -->
+    <style>
+      /* Add custom styles here */
+      .subsection-content video {
+        max-width: 100%; /* Adjust as needed */
+        height: auto; /* Maintain aspect ratio */
+      }
+      .progress {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Course Name</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#section1">Section 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2">Section 2</a>
+          </li>
+          <!-- Add more sections -->
+        </ul>
+        <!-- Language Selection Dropdown -->
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="languageDropdown"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Language
+          </button>
+          <div class="dropdown-menu" aria-labelledby="languageDropdown">
+            <a class="dropdown-item" href="#" id="english">English</a>
+            <a class="dropdown-item" href="#" id="spanish">Spanish</a>
+            <!-- Add more languages -->
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <!-- Sections -->
+      <div id="section1" class="mb-4">
+        <h2>Section 1</h2>
+        <div class="list-group" id="subsectionList1">
+          <!-- Subsections of Section 1 -->
+          <div>
+            <a
+              href="#subsection1-1"
+              class="list-group-item list-group-item-action"
+              >Subsection 1.1</a
+            >
+            <div>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,
+              ipsa accusamus? Suscipit soluta praesentium architecto
+              voluptatibus nobis, repellendus velit rem vero dolor
+              exercitationem magnam cum totam nihil? Necessitatibus blanditiis
+              voluptas consectetur recusandae iste doloremque repudiandae esse,
+              enim ducimus maxime nam? Eum cupiditate, aut praesentium impedit
+              dolorum cumque sint quaerat suscipit.
+            </div>
+          </div>
+          <div>
+            <a
+              href="#subsection1-1"
+              class="list-group-item list-group-item-action"
+              >Subsection 1.1</a
+            >
+            <div>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,
+              ipsa accusamus? Suscipit soluta praesentium architecto
+              voluptatibus nobis, repellendus velit rem vero dolor
+              exercitationem magnam cum totam nihil? Necessitatibus blanditiis
+              voluptas consectetur recusandae iste doloremque repudiandae esse,
+              enim ducimus maxime nam? Eum cupiditate, aut praesentium impedit
+              dolorum cumque sint quaerat suscipit.
+            </div>
+          </div>
+          <!-- Add more subsections -->
+        </div>
+      </div>
+      <div id="section2" class="mb-4">
+        <h2>Section 2</h2>
+        <div class="list-group" id="subsectionList2">
+          <!-- Subsections of Section 2 -->
+          <a
+            href="#subsection2-1"
+            class="list-group-item list-group-item-action"
+            >Subsection 2.1</a
+          >
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            voluptatem in vitae omnis, nihil mollitia asperiores, beatae, ea
+            consectetur corporis quis laborum provident debitis dolorem a! Vitae
+            esse eius assumenda magni doloremque nihil. Vitae laudantium,
+            necessitatibus consequatur rerum quaerat maiores!
+          </div>
+          <a
+            href="#subsection2-2"
+            class="list-group-item list-group-item-action"
+            >Subsection 2.2</a
+          >
+          <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Consectetur minus provident incidunt, a accusantium laboriosam
+            corrupti nulla odit veritatis? Aliquid nobis nesciunt itaque, sunt
+            labore neque cupiditate, voluptates facilis voluptatibus quam
+            doloremque assumenda ipsa sit officiis accusantium quae nemo magni
+            dicta molestiae deleniti non qui iste. Consequuntur consectetur
+            perspiciatis reprehenderit?
+          </div>
+          <!-- Add more subsections -->
+        </div>
+      </div>
+
+      <!-- Subsections Content -->
+      <div id="subsection1-1" class="subsection-content mb-4">
+        <h3>Subsection 1.1</h3>
+        <!-- Video Player -->
+        <video controls>
+          <source src="./utils/sample.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <!-- Audio Player -->
+        <audio controls>
+          <source src="./utils/audiosample.mp3" type="audio/mp3" />
+          Your browser does not support the audio tag.
+        </audio>
+        <p>Content for Subsection 1.1 goes here...</p>
+      </div>
+      <div id="subsection1-2" class="subsection-content mb-4">
+        <h3>Subsection 1.2</h3>
+        <!-- Video Player -->
+        <video controls>
+          <source src="./utils/sample.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <!-- Audio Player -->
+        <audio controls>
+          <source src="./utils/audiosample.mp3" type="audio/mp3" />
+          Your browser does not support the audio tag.
+        </audio>
+        <p>Content for Subsection 1.2 goes here...</p>
+      </div>
+      <div id="subsection2-1" class="subsection-content mb-4">
+        <h3>Subsection 2.1</h3>
+        <!-- Video Player -->
+        <video controls>
+          <source src="./utils/sample.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <!-- Audio Player -->
+        <audio controls>
+          <source src="./utils/audiosample.mp3" type="audio/mp3" />
+          Your browser does not support the audio tag.
+        </audio>
+        <p>Content for Subsection 2.1 goes here...</p>
+      </div>
+      <div id="subsection2-2" class="subsection-content mb-4">
+        <h3>Subsection 2.2</h3>
+        <!-- Video Player -->
+        <video controls>
+          <source src="./utils/sample.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <!-- Audio Player -->
+        <audio controls>
+          <source src="./utils/audiosample.mp3" type="audio/mp3" />
+          Your browser does not support the audio tag.
+        </audio>
+        <p>Content for Subsection 2.2 goes here...</p>
+      </div>
+
+      <!-- Progress Tracking -->
+      <h1>Progress Bar</h1>
+      <div class="progress mt-3">
+        <div
+          class="progress-bar bg-success"
+          role="progressbar"
+          style="width: 25%"
+          aria-valuenow="25"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          25% Complete
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Smooth Scroll JavaScript -->
+    <!-- Smooth Scroll JavaScript -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Smooth scrolling for anchor links
+        var anchorLinks = document.querySelectorAll('a[href^="#"]');
+        anchorLinks.forEach(function (link) {
+          link.addEventListener("click", function (event) {
+            event.preventDefault();
+            var targetId = this.getAttribute("href").substr(1);
+            var targetElement = document.getElementById(targetId);
+            if (targetElement) {
+              var offsetTop = targetElement.offsetTop;
+              window.scrollTo({
+                top: offsetTop,
+                behavior: "smooth",
+              });
+            }
+          });
+        });
+
+        // Language Selection
+        var englishBtn = document.getElementById("english");
+        var spanishBtn = document.getElementById("spanish");
+
+        englishBtn.addEventListener("click", function () {
+          console.log("English button clicked");
+          setLanguage("english");
+        });
+
+        spanishBtn.addEventListener("click", function () {
+          console.log("Spanish button clicked");
+          setLanguage("spanish");
+        });
+
+        // Function to set language
+        function setLanguage(language) {
+          var navbarBrand = document.querySelector(".navbar-brand");
+          var section1Link = document.querySelector(
+            '.nav-link[href="#section1"]'
+          );
+          var section2Link = document.querySelector(
+            '.nav-link[href="#section2"]'
+          );
+          var languageDropdown = document.getElementById("languageDropdown");
+
+          if (language === "english") {
+            navbarBrand.textContent = "Course Name";
+            section1Link.textContent = "Section 1";
+            section2Link.textContent = "Section 2";
+            languageDropdown.textContent = "Language";
+
+            // Update section titles and subsections for English
+            document
+              .getElementById("section1")
+              .querySelector("h2").textContent = "Section 1";
+            document
+              .getElementById("section2")
+              .querySelector("h2").textContent = "Section 2";
+            document
+              .getElementById("subsectionList1")
+              .querySelector("a").textContent = "Subsection 1.1";
+            document
+              .getElementById("subsectionList2")
+              .querySelector("a").textContent = "Subsection 2.1";
+            // Update other subsections as needed
+            document
+              .getElementById("subsection1-1")
+              .querySelector("h3").textContent = "Subsection 1.1";
+            document
+              .getElementById("subsection2-1")
+              .querySelector("h3").textContent = "Subsection 2.1";
+            // Update other subsection headings as needed
+
+            // Update other text content in the body for English
+            document
+              .getElementById("subsection1-1")
+              .querySelector("p").textContent =
+              "Content for Subsection 1.1 goes here...";
+            document.querySelector(".progress h1").textContent = "Progress Bar";
+            document.querySelector(".progress-bar").textContent =
+              "25% Complete";
+            // Update other content as needed
+          } else if (language === "spanish") {
+            navbarBrand.textContent = "Nombre del Curso";
+            section1Link.textContent = "Sección 1";
+            section2Link.textContent = "Sección 2";
+            languageDropdown.textContent = "Idioma";
+
+            // Update section titles and subsections for Spanish
+            document
+              .getElementById("section1")
+              .querySelector("h2").textContent = "Sección 1";
+            document
+              .getElementById("section2")
+              .querySelector("h2").textContent = "Sección 2";
+            document
+              .getElementById("subsectionList1")
+              .querySelector("a").textContent = "Subsección 1.1";
+            document
+              .getElementById("subsectionList2")
+              .querySelector("a").textContent = "Subsección 2.1";
+            // Update other subsections as needed
+            document
+              .getElementById("subsection1-1")
+              .querySelector("h3").textContent = "Subsección 1.1";
+            document
+              .getElementById("subsection2-1")
+              .querySelector("h3").textContent = "Subsección 2.1";
+            // Update other subsection headings as needed
+
+            // Update other text content in the body for Spanish
+            document
+              .getElementById("subsection1-1")
+              .querySelector("p").textContent =
+              "Contenido para la Subsección 1.1 va aquí...";
+            document.querySelector(".progress h1").textContent =
+              "Barra de Progreso";
+            document.querySelector(".progress-bar").textContent =
+              "25% Completado";
+            // Update other content as needed
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
